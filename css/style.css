@@ -1223,6 +1223,9 @@ body.offcanvas .jopho-nav-toggle {
     max-width: 100%;
     position: relative;
     vertical-align: top;
+    height: 400px;
+    object-fit: cover;
+
 }
 .services-con .services-title {
     background-color: #191919;
@@ -1396,6 +1399,7 @@ body.offcanvas .jopho-nav-toggle {
     font-size: 12px;
 }
 .jophoto-photos .jophoto-photo-item img {
+    height: 500px;
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
